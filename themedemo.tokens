@@ -1,1 +1,43 @@
-
+{
+  "global": {},
+  "aphrodite-global": {
+    "blue": {
+      "50": {
+        "value": "#4351bf",
+        "type": "color"
+      }
+    }
+  },
+  "aphrodite-alias": {
+    "background-color": {
+      "primary": {
+        "value": "{blue.50}",
+        "type": "color"
+      }
+    }
+  },
+  "olympus-global": {
+    "green": {
+      "50": {
+        "value": "#2fb424",
+        "type": "color"
+      }
+    }
+  },
+  "olympus-alias": {
+    "background-color": {
+      "primary": {
+        "value": "{green.50}",
+        "type": "color"
+      }
+    }
+  },
+  "button": {
+    "background": {
+      "btn-primary-bg-color": {
+        "value": "{background-color.primary}",
+        "type": "color"
+      }
+    }
+  }
+}
